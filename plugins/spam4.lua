@@ -1,8 +1,5 @@
-do 
-
-function run(msg, matches)
-	if is_sudo(msg) then
-  return "
+local function run(msg) if msg.text == "spam1" and is_sudo(msg) then
+	return [[
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
@@ -2637,6 +2634,7 @@ function run(msg, matches)
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
+بدخو��ه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
@@ -4098,18 +4096,20 @@ function run(msg, matches)
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
-بدخواه نگاییدم (fuck) (fuck) -○
-کیرم تو کون ادمین این گروه ، چطوری ادمین مادر جنده"
-  end
-  
-  return {
-  description = "a plugin for Turbo Team", 
-  usage = {"fuck : Turbo spam","FUCK : Turbo Team spam",
-  patterns = {
-		"^spam1$",
-
-  },
-  run = run
-}
-
+کیرم تو کون ادمین این گروه ، چطوری ادمین ما
+]]
+ end
 end
+ return {
+	description = "Chat With Robot Server",
+	usage = {
+	    sudo = {
+	    "spam : send spam to chat" },
+	},
+	patterns = {
+		"^spam1$",
+},
+	run = run,
+    --privileged = true,
+	pre_process = pre_process
+}
