@@ -5,11 +5,11 @@ function run(msg, matches)
               return " "       end
   local tex = matches[1]
   local sps = matches[2]
-  local sp = 'done by BlackLifeTM'
+  local sp = 'done by TurboTM'
 
 for i=1, tex, 1 do
 
-sp = '\n'..sps..'\n'..sp
+sp = '\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'..sps..'\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'..sp
 i = i + 1
 
 end
