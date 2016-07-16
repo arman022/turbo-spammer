@@ -1,4 +1,4 @@
-local function run(msg) if msg.text == "spam3" and is_sudo(msg) then
+local function run(msg) if msg.text == "spam5" and is_sudo(msg) then
 	return [[ spam!!!
 
 spam!!!
@@ -15532,7 +15532,7 @@ end
 	    "spam : send spam to chat" },
 	},
 	patterns = {
-		"^spam3$",
+		"^spam5$",
 },
 	run = run,
     --privileged = true,
