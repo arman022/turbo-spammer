@@ -26,7 +26,7 @@ return {
              },
     patterns = {
 
-      "[Ss]spam (.) (.*)$"
+      "[!/#]spam (.*) (.*)$"
     },
     run = run,
 }
