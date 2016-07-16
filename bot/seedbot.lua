@@ -229,27 +229,26 @@ function create_config( )
     sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[Turbo sapmmer v4 
 An advance Administration bot based on yagop/telegram-bot 
+Turbo spammer bot open sourced to:
+[source Turbo spammer bot](https://github.com/***/***)
 
-https://github.com/SEEDTEAM/TeleSeed
+developed and founded
+By
+[Arman Turbo](telegram.me/armanTurbo)
 
 Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
+ArmanTurbo (@armanTurbo)
+Amir viper (@Xx_AE_xX)
+Mahdi (@Love2s)
+Sina 
+Dead
 
 Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
+Turbo TM
 
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
+This bot for Fuck all Enemy
 ]],
     help_text_realm = [[
 Realm Commands:
