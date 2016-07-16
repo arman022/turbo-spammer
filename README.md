@@ -19,7 +19,7 @@
 yadetoon nare ghabl az avalin launch idi khodetoon ro dakhel seedbot.lua baraye sudo shodan gharar bedid
 
 movafagh va sarboland bashid :)
-# [amir VIPer](telegram.me/@Xx_AE_xX)
+# [amir VIPer](telegram.me/Xx_AE_xX)
 
 hatman ghabl launch plugine (autoaddersudo) ro check konid
 
