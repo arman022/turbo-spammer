@@ -1,6 +1,7 @@
 do 
 
 function run(msg, matches)
+	if is_sudo(msg) then
   return "
 بدخواه نگاییدم (fuck) (fuck) -○
 بدخواه نگاییدم (fuck) (fuck) -○
